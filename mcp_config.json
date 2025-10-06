@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "pvfutility": {
+      "command": "uv",
+      "args": [
+        "run",
+        "mcp_server.py",
+        "--base-url",
+        "http://localhost:27000"
+      ],
+      "cwd": "path/to/pvfUtility-MCP-Release",
+      "env": {},
+      "_comment": "请将 'path/to/pvfUtility-MCP-Release' 替换为实际的解压目录路径"
+    }
+  }
+}
